@@ -1,0 +1,35 @@
+nav{
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100%;
+  background: blue;
+  width: 100%;
+  margin:0px auto;
+    left:0px;
+    right:0px;
+}
+
+.nav-links{
+  grid-column: 2 / 5;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-around;
+  float: left;
+  margin-top: 15px;
+}
+
+li{
+  display: inline-block;
+color: black;
+text-align: center;
+text-decoration: none;
+transition: 0.3s;
+font-size: 1em;
+width: 100%;
+font-family: coolvetica;
+letter-spacing: 0.1em;
+}
