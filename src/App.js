@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav';
 import About from './components/About/About';
 import Products from './components/Products/Products';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App(){
@@ -13,11 +14,12 @@ function App(){
     <section className="grid">
       <Nav />
       <Switch>
-        <Route path='/' component={Home} />
+        <Route path='/' exact component={Home} />
           <Route path='/Products' component={Products} />
           <Route path='/About' component={About} />
           <Route path='/Contact' component={Contact} />
       </Switch>
+      <Footer />
     </section>
   </Router>
   );

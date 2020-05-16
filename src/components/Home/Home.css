@@ -1,5 +1,166 @@
 .subgrid{
-  grid-area: main;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: .8em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+h1{
+  margin: 0;
+  padding: 1em 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5;
+}
+h3{
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-size: 1.5em;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #B0E400;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+.planet{
+  width: 80%;
+  height: 10em;
+  display: block;
+  height: auto;
+  margin-top: 1em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.intro{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+}
+
+.intro2{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 1.5em;
+  background-color: #C2E841;
+  color: black;
+  font-size: 1.2em;
+}
+
+.products{
+  background-color: #ADD34C;
+}
+.gloves{
+  width: 50%;
+  padding: 1em;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 1.5em;
+  border-radius: 15px;
+}
+
+.button1{
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #41A4E8;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.apron{
+  width: 50%;
+  padding: 1em;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+margin-top: 1.5em;
+border-radius: 25px;
+}
+.button2{
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #41A4E8;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+
+}
+.straws{
+  width: 50%;
+  padding: 1em;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+margin-top: 1.5em;
+border-radius: 25px;
+}
+.button3{
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #41A4E8;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+
+}
+.checkout{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 1.5em;
+}
+
+.contact{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  background-color: #41A4E8;
+}
+
+.extra{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+}
+span{
+color: #FF3D5C;
+font-weight: 400;
+}
+.plastic1{
+  width: 100%;
+  border-radius: 15px;
 }

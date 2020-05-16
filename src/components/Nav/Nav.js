@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Nav.css";
 import { Link } from 'react-router-dom';
+import logo from './images/ColourLogo1.png';
 
 function Nav(){
   const navStyle = {
@@ -10,9 +11,10 @@ function Nav(){
 
   return(
     <nav>
-      <h3> Navigation </h3>
+      <h1 className="slogan">Everything Solid is 100% Biodegradeable</h1>
+      <img className="logo"src={logo} alt="Company Logo." />
       <ul className="nav-links">
-        <Link style={navStyle} to='/Home'>
+        <Link style={navStyle} to='/'>
         <li>Home</li>
         </Link>
         <Link style={navStyle} to='/Products'>

@@ -4,7 +4,7 @@ import "./Products.css";
 function Products(){
   return(
     <section>
-      <h1>Home Page</h1>
+      <h1>Products Page</h1>
       <p>dsofodsafsdf</p>
     </section>
   );
