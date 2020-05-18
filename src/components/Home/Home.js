@@ -15,10 +15,9 @@ function Home(){
   return(
     <section className="subgrid">
       <h1>Welcome to the Bio-Store</h1>
-      <h3>We are committed to providing biodegradable alternatives to the plastics
-          that are damaging our planet</h3>
+      <h3 className="subtitle">We are committed to providing biodegradable alternatives to the plastics
+          that are damaging our planet.</h3>
           <img className="planet"src={planet} alt="plastic bottle" />
-
         <p className="intro">
           We are based in the North-West of England, but deliver worldwide and specialise in those products
           that are frequently disposed of all too readily.
@@ -27,16 +26,17 @@ function Home(){
           So is it biodegradable gloves you need? Maybe aprons? Or are you in catering and require an
           alternative to those plastic straws that end up everywhere?
         </p>
-        <Link to="/Products"><img className="gloves"src={gloves} alt="Bio Gloves." /></Link>
-        <Link to="/Products"><button class="button1">View</button></Link>
+        <img className="gloves"src={gloves} alt="Bio Gloves." />
+        <button className="button1">View</button>
         <img className="apron"src={apron} alt="Bio Aprons" />
-          <Link to="/Products"><button class="button2">View</button></Link>
+          <button className="button2">View</button>
         <img className="straws"src={straws} alt="Bio Straws." />
-          <Link to="/Products"><button class="button3">View</button></Link>
+        <button className="button3">View</button>
 
         <p className="checkout">
           Check out our products page!
         </p>
+        <span className="shape"></span>
         <p className="contact">
           We realise that it’s hard to break habits, but we’re here to discuss your options on how to turn your
           business into an Earth-friendly one. Contact us today!
@@ -49,7 +49,7 @@ function Home(){
         <h2>
           Costing the Earth -
         </h2>
-        <h3>
+        <h3 className="end">
           Plastic is currently <span>choking</span> the Earth’s oceans and suffocating the soil. Help us help you. Get in touch
           today.
         </h3>

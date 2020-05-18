@@ -33,3 +33,29 @@
   font-family: 'Poppins', sans-serif;
 
 }
+@media only screen and (min-width: 850px) {
+  .footergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .footcontact{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    font-size: 1.5em;
+    position: relative;
+    top: 30%;
+  }
+  .footdetails{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+  .footdetails2{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+  }
+  .footdetails3{
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+  }
+}
