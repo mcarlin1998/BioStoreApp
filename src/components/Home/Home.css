@@ -221,22 +221,23 @@ h1{
   grid-row: 3 / 3;
   width: 50%;
   position: relative;
-  left: 20%;
+  left: 15%;
+  top: 4%;
 }
 .button1{
   grid-column: 1 / 1;
   grid-row: 4 / 4;
   position: relative;
   width: 30%;
-  height: 100%;
-  left: 33%;
-  bottom: 40%;
+  height: 15%;
+  top: 10%;
+  right: 30%;
 }
 .apron{
   grid-column: 2 / 2;
   grid-row: 3 / 3;
     width: 45%;
-    height: 76%;
+    height: 11.5em;
     position: relative;
     left: 25%;
 }
@@ -245,17 +246,15 @@ h1{
   grid-row: 4 / 4;
   position: relative;
   width: 30%;
-  height: 100%;
-  left: 36%;
-  bottom: 32%;
-
+  height: 15%;
+  right: 17%;
+  top: 5%;
 }
 .straws{
   grid-column: 3 / 3;
   grid-row: 3 / 3;
   width: 45%;
-  height: 78%;
-
+  height: 11.5em;
   position: relative;
   left: 25%;
 }
@@ -265,9 +264,8 @@ h1{
   position: relative;
   width: 30%;
   height: 100%;
-  left: 36%;
-  bottom: 32%;
-
+  right: 15%;
+  top: 5%;
 }
 a{
   padding: 0;

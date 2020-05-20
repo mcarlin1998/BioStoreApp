@@ -26,12 +26,15 @@ function Home(){
           So is it biodegradable gloves you need? Maybe aprons? Or are you in catering and require an
           alternative to those plastic straws that end up everywhere?
         </p>
+        <Link to="/Products">
         <img className="gloves"src={gloves} alt="Bio Gloves." />
-        <button className="button1">View</button>
+        <button className="button1">View</button></Link>
+          <Link to="/Products">
         <img className="apron"src={apron} alt="Bio Aprons" />
-          <button className="button2">View</button>
+          <button className="button2">View</button></Link>
+            <Link to="/Products">
         <img className="straws"src={straws} alt="Bio Straws." />
-        <button className="button3">View</button>
+        <button className="button3">View</button></Link>
 
         <p className="checkout">
           Check out our products page!

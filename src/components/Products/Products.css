@@ -1,0 +1,208 @@
+.subgrid{
+  margin: .8em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.prodtitle{
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.prodintro{
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 2%;
+}
+
+.stock{
+  text-align: center;
+  font-size: 2em;
+  border-top: 1px solid black;
+  font-family: 'Poppins', sans-serif;
+  color: #C2E841;
+}
+
+.gloves1{
+  width: 50%;
+  padding: 1em;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 1.5em;
+  border-radius: 15px;
+  position: relative;
+  left: 20%;
+}
+
+.buttonr1{
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #41A4E8;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 25%;
+  bottom: 5%;
+}
+
+.title1{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+}
+
+.apron1{
+  width: 50%;
+  padding: 1em;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+margin-top: 1.5em;
+border-radius: 25px;
+position: relative;
+left: 20%;
+
+}
+.buttonr2{
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #41A4E8;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 25%;
+}
+.title2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+}
+.des2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+.straws1{
+  width: 50%;
+  padding: 1em;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+margin-top: 1.5em;
+border-radius: 25px;
+position: relative;
+left: 20%;
+
+}
+.buttonr3{
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #41A4E8;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 25%;
+
+}
+.title3{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 850px) {
+
+.subgrid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr ;
+}
+
+.prodtitle{
+  grid-column: 1 / 4;
+  grid-row: 1 / 1;
+}
+.prodintro{
+  grid-column: 1 / 4;
+  grid-row: 2 / 2;
+}
+.stock{
+  grid-column: 1 / 4;
+  grid-row: 3 / 3;
+}
+.gloves1{
+  grid-column: 1 / 1;
+  grid-row: 4 / 4;
+}
+
+.buttonr1{
+  grid-column: 1 / 1;
+  grid-row: 4 / 4;
+}
+
+.title1{
+  grid-column: 1 / 1;
+  grid-row: 4 / 4;
+}
+.des1{
+  grid-column: 1 / 1;
+  grid-row: 4 / 4;
+}
+
+.apron1{
+  grid-column: 2 / 2;
+  grid-row: 4 / 4;
+}
+.buttonr2{
+  grid-column: 2 / 2;
+  grid-row: 4 / 4;
+}
+.title2{
+  grid-column: 2 / 2;
+  grid-row: 4 / 4;
+}
+.des2{
+  grid-column: 2 / 2;
+  grid-row: 4 / 4;
+}
+.des3{
+  grid-column: 2 / 2;
+  grid-row: 4 / 4;
+}
+.straws1{
+  grid-column: 3 / 3;
+  grid-row: 4 / 4;
+}
+.buttonr3{
+  grid-column: 3 / 3;
+  grid-row: 4 / 4;
+}
+.title3{
+  grid-column: 3 / 3;
+  grid-row: 4 / 4;
+}
+.des3{
+  grid-column: 3 / 3;
+  grid-row: 4 / 4;
+}
+
+}
