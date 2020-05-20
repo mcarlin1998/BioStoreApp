@@ -134,7 +134,7 @@ left: 20%;
 .subgrid1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 4fr 5fr ;
 }
 
 .prodtitle{
@@ -149,44 +149,76 @@ left: 20%;
   grid-column: 1 / 4;
   grid-row: 3 / 3;
 }
+.product1{
+  grid-column: 1 / 1;
+  grid-row: 4 / 4;
+}
+.product2{
+  grid-column: 2 / 2;
+  grid-row: 4 / 4;
+}
+.product3{
+  grid-column: 3 / 3;
+  grid-row: 4 / 4;
+}
 .gloves1{
   grid-column: 1 / 1;
   grid-row: 4 / 4;
+  width: 60%;
+  height: 50%;
 }
 
 .buttonr1{
   grid-column: 1 / 1;
   grid-row: 4 / 4;
+  height: 20%;
 }
 
 .title1{
   grid-column: 1 / 1;
-  grid-row: 4 / 4;
+  grid-row: 5 / 5;
+  height: 20%;
+  position: relative;
+  left: 5%;
 }
 .des1{
   grid-column: 1 / 1;
-  grid-row: 4 / 4;
+  grid-row: 5 / 5;
+  height: 80%;
+  position: relative;
+  top: 20%;
 }
 
 .apron1{
   grid-column: 2 / 2;
   grid-row: 4 / 4;
+  width: 55%;
+  height: 55%;
 }
 .buttonr2{
   grid-column: 2 / 2;
   grid-row: 4 / 4;
+  height: 20%;
+  bottom: 5%;
 }
 .title2{
   grid-column: 2 / 2;
-  grid-row: 4 / 4;
+  grid-row: 5 / 5;
 }
 .des2{
   grid-column: 2 / 2;
-  grid-row: 4 / 4;
+  grid-row: 5 / 5;
+  height: 80%;
+  position: relative;
+  top: 12%;
+
 }
-.des3{
-  grid-column: 2 / 2;
-  grid-row: 4 / 4;
+.des4{
+  grid-column: 3 / 3;
+  grid-row: 5 / 5;
+  height: 80%;
+  position: relative;
+  top: 20%;
 }
 .straws1{
   grid-column: 3 / 3;
@@ -195,14 +227,14 @@ left: 20%;
 .buttonr3{
   grid-column: 3 / 3;
   grid-row: 4 / 4;
+  height: 20%;
+  position: relative;
+  bottom: 5%;
 }
 .title3{
   grid-column: 3 / 3;
-  grid-row: 4 / 4;
-}
-.des3{
-  grid-column: 3 / 3;
-  grid-row: 4 / 4;
+  grid-row: 5 / 5;
+  height: 20%;
 }
 
 }
