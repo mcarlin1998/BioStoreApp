@@ -40,10 +40,6 @@ function Home(){
           Check out our products page!
         </p>
         <span className="shape"></span>
-        <p className="contact">
-          We realise that it’s hard to break habits, but we’re here to discuss your options on how to turn your
-          business into an Earth-friendly one. Contact us today!
-        </p>
         <p className="extra">
           We also offer different services such as:
           Environmentally-friendly cleaning
