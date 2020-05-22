@@ -1,5 +1,6 @@
 import React  from 'react';
 import "./App.css";
+//imports each component/webpage
 import Home from './components/Home/Home';
 import Nav from './components/Nav/Nav';
 import About from './components/About/About';
@@ -14,6 +15,7 @@ function App(){
     <section className="grid">
       <Nav />
       <Switch>
+        //using route the path to each component is constructed.
         <Route path='/' exact component={Home} />
           <Route path='/Products' component={Products} />
           <Route path='/About' component={About} />

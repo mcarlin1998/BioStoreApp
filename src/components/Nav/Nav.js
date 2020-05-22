@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Nav.css";
 import { Link } from 'react-router-dom';
-import logo from './images/ColourLogo1.png';
+import logo from './images/react.svg';
 
 function Nav(){
   const navStyle = {
@@ -10,6 +10,7 @@ function Nav(){
 
 
   return(
+    //creates navigation for site using router dom to connect the systems components
     <nav>
       <h1 className="slogan">Everything Solid is 100% Biodegradeable</h1>
       <img className="logo"src={logo} alt="Company Logo." />

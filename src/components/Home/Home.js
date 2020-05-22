@@ -1,5 +1,7 @@
 import React from 'react';
+//imports stylsheet
 import "./Home.css";
+//imports images
 import plastic1 from './images/Plastic_1.png';
 import plastic2 from './images/Plastic_2.png';
 import gloves from './images/Gloves_1.png';
@@ -10,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 
 
-
+//information to be supplied to home page
 function Home(){
   return(
     <section className="subgrid">

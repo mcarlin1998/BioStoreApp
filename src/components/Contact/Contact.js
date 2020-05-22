@@ -1,6 +1,8 @@
 import React from 'react';
+//imports stylesheet
 import "./Contact.css";
 
+//html information to be displayed on web-page
 function Contact(){
   return(
     <section className="subgrid3">

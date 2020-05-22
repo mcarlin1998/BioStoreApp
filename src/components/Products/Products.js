@@ -1,8 +1,11 @@
 import React from 'react';
+//imports stylesheet
 import "./Products.css";
+//imports images
 import gloves from './images/Gloves_1.png';
 import apron from './images/apron_1.png';
 import straws from './images/Straws_1.png';
+//imports router dom ability to connect components
 import { Link } from 'react-router-dom';
 
 
@@ -55,7 +58,7 @@ function Products(){
             <li>Boxed in cardboard outers which can be recycled.</li>
             <li>18 - 36 months to commence break down once sent to landfill.</li>
           </ol>
-          
+
           <Link to="/Products" className="product3">
       <img className="straws1"src={straws} alt="Bio Straws." />
       <button className="buttonr3">Buy</button>

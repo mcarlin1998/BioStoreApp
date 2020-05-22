@@ -1,5 +1,7 @@
 import React from 'react';
+//imports stylesheet
 import "./About.css";
+//Import of images
 import jen from './images/jennifer-robertson.jpeg';
 import alex from './images/alex-carter.jpeg';
 import harry from './images/harry-robertson.jpeg';
@@ -12,9 +14,10 @@ import laura from './images/laura-lago.jpeg';
 
 
 
-
+//html information for system
 function About(){
   return(
+    //declares subgrid
     <section className="subgrid2">
       <p className="abouttitle">About Page</p>
       <img className="jen"src={jen} alt="Owner of Company" />

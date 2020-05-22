@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css";
+//imports link from router to allow navigation between pages
 import { Link } from 'react-router-dom';
 
 function Footer(){
