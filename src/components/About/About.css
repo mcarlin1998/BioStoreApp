@@ -153,3 +153,26 @@
   line-height: 1em;
 
 }
+@media only screen and (min-width: 850px) {
+  .jen{
+    width: 13.5em;
+  }
+  .harry{
+    width: 13.5em;
+  }
+  .josh{
+    width: 18em;
+
+  }
+  .alex{
+    width: 13.5em;
+
+  }
+  .jess{
+    width: 18em;
+
+  }
+  .laura{
+    width: 18em;
+  }
+}

@@ -219,7 +219,7 @@ h1{
 .gloves{
   grid-column: 1 / 1;
   grid-row: 3 / 3;
-  width: 50%;
+  width: 40%;
   position: relative;
   left: 15%;
   top: 4%;
@@ -231,13 +231,13 @@ h1{
   width: 30%;
   height: 15%;
   top: 10%;
-  right: 30%;
+  right: 23.5%;
 }
 .apron{
   grid-column: 2 / 2;
   grid-row: 3 / 3;
-    width: 45%;
-    height: 11.5em;
+    width: 40%;
+    height: 13em;
     position: relative;
     left: 25%;
 }
@@ -247,14 +247,14 @@ h1{
   position: relative;
   width: 30%;
   height: 15%;
-  right: 17%;
+  right: 12%;
   top: 5%;
 }
 .straws{
   grid-column: 3 / 3;
   grid-row: 3 / 3;
-  width: 45%;
-  height: 11.5em;
+  width: 40%;
+  height: 13em;
   position: relative;
   left: 25%;
 }
@@ -263,8 +263,8 @@ h1{
   grid-row: 4 / 4;
   position: relative;
   width: 30%;
-  height: 100%;
-  right: 15%;
+  height: 2em;
+  right: 12%;
   top: 5%;
 }
 a{
@@ -274,6 +274,10 @@ a{
 .checkout{
   display: none;
 }
+.extra{
+  position: relative;
+  top: .5em;
+}
 .shape{
   grid-column: 1 / 4;
   grid-row: 5 / 7;
@@ -282,6 +286,8 @@ a{
   height: 100%;
   z-index: -1;
   border-radius: 15px;
+  position: relative;
+  top: 2em;
 }
 .contact{
   grid-column: 1 / 4;
@@ -320,4 +326,5 @@ h2{
   grid-row: 8 / 8;
   grid-column: 2 / 4;
 }
+
 }
